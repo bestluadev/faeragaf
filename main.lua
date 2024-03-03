@@ -431,8 +431,8 @@ end
 if finalMsg == getgenv().prefix .. "stack bank" then
     game.Players.LocalPlayer.Character.Head.Anchored = false
     for i, v in pairs(getgenv().alts) do
-local Alt1 = i == "Alt1" 
-local Alt2 = i == "Alt1" 
+local Alt1 = "Alt1" 
+local Alt2 = "Alt2" 
 if  i == "Alt1" and i == "Alt2" then
     local centerPosition = bot1.Position + (Alt1.Position - Alt2.Position) / 2
     game.Players.LocalPlayer.Character.Head.Anchored = true
