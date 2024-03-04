@@ -1,5 +1,5 @@
 if game.PlaceId == 2788229376 then
-wait(2)
+game.Loaded:Wait()
 local bb=game:service'VirtualUser'
 game:service'Players'.LocalPlayer.Idled:connect(function()
 	bb:CaptureController()bb:ClickButton2(Vector2.new())
@@ -220,9 +220,7 @@ end
                             game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(var, "All")
                         end    
 
-                        if finalMsg == getgenv().prefix .. "farm " .. plr.Name:lower() then
-                            
-                        end
+            
 
 
                         if finalMsg == getgenv().prefix .. "delcash " .. plr.Name:lower() then
